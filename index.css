@@ -25,9 +25,9 @@ body {
   border: 2px solid #4adf86;
 }
 .header {
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .header h1 {
   color: white;
@@ -59,8 +59,8 @@ body {
 }
 hr {
   width: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-top: 40px;
   border: 1px solid #2b394c;
 }
@@ -77,8 +77,8 @@ hr {
   margin-bottom: 10px;
 }
 .footer {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
   font-size: 13px;
   color: #a0a2a9;
   margin-bottom: 40px;
