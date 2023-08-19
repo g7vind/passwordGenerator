@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1f2937;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  margin: auto;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #4adf86;
+}
+.header {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.header h1 {
+  color: white;
+}
+.header p {
+  color: #a0a2a9;
+  margin-bottom: 40px;
+}
+.head1 {
+  color: #4adf86;
+}
+.Generate {
+  background-color: #10b981;
+  color: white;
+  height: 40px;
+  width: auto;
+  padding: 0px 10px;
+  border-radius: 8px;
+  border: none;
+}
+.Generate:hover {
+  cursor: pointer;
+}
+.result {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+hr {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  border: 1px solid #2b394c;
+}
+#pass1,
+#pass2 {
+  background: #2b394c;
+  color: #55f991;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+  color: #a0a2a9;
+  margin-bottom: 40px;
+  margin-top: -30px;
+}
