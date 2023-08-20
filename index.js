@@ -12,11 +12,12 @@ function passg() {
   return sb;
 }
 
-function copy() {
+function copy(x) {
   if (isAlive == false) {
     alert("Please generate a password first");
   } else {
-    var1.select();
+    if (x == 1) var1.select();
+    else var2.select();
     document.execCommand("copy");
     alert("Password copied to clipboard");
   }
